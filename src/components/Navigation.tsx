@@ -59,6 +59,8 @@ const Navigation = () => {
           <div className="hidden md:flex items-center gap-8">
             <NavItem label="Home" onClick={() => scrollToSection("hero")} />
             <NavItem label="Team" onClick={() => scrollToSection("team")} />
+            <NavItem label="Achievements" onClick={() => scrollToSection("achievements")} />
+            <NavItem label="Photos" onClick={() => scrollToSection("photos")} />
             <NavItem label="About" onClick={() => scrollToSection("about")} />
             <NavItem label="Contact" onClick={() => scrollToSection("contact")} />
           </div>
@@ -93,6 +95,8 @@ const Navigation = () => {
           <div className="py-4 space-y-4 border-t border-border/30">
             <MobileNavItem label="Home" onClick={() => scrollToSection("hero")} />
             <MobileNavItem label="Team" onClick={() => scrollToSection("team")} />
+            <MobileNavItem label="Achievements" onClick={() => scrollToSection("achievements")} />
+            <MobileNavItem label="Photos" onClick={() => scrollToSection("photos")} />
             <MobileNavItem label="About" onClick={() => scrollToSection("about")} />
             <MobileNavItem label="Contact" onClick={() => scrollToSection("contact")} />
           </div>
